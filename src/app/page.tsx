@@ -153,7 +153,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onClick="window.location.href='cart.html'"
+                                              // onClick="window.location.href='cart.html'"
                                               method="post"
                                           >
                                               <button
