@@ -973,7 +973,7 @@ export default function RootLayout({
                          <div className="wrapQtyBtn">
                            <div className="qtyField">
                              <span className="label">Qty:</span>
-                             <a className="qtyBtn minus" href="javascript:void(0);">
+                             <a className="qtyBtn minus" >
                                <i
                                    className="fa anm anm-minus-r"
                                    aria-hidden="true"
@@ -986,7 +986,7 @@ export default function RootLayout({
                                  defaultValue={1}
                                  className="product-form__input qty"
                              />
-                             <a className="qtyBtn plus" href="javascript:void(0);">
+                             <a className="qtyBtn plus" >
                                <i className="fa anm anm-plus-r" aria-hidden="true" />
                              </a>
                            </div>
@@ -1020,7 +1020,7 @@ export default function RootLayout({
                          <div className="wrapQtyBtn">
                            <div className="qtyField">
                              <span className="label">Qty:</span>
-                             <a className="qtyBtn minus" href="javascript:void(0);">
+                             <a className="qtyBtn minus" >
                                <i
                                    className="fa anm anm-minus-r"
                                    aria-hidden="true"
@@ -1033,7 +1033,7 @@ export default function RootLayout({
                                  defaultValue={1}
                                  className="product-form__input qty"
                              />
-                             <a className="qtyBtn plus" href="javascript:void(0);">
+                             <a className="qtyBtn plus" >
                                <i className="fa anm anm-plus-r" aria-hidden="true" />
                              </a>
                            </div>

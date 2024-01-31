@@ -141,7 +141,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                              //
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -153,7 +153,6 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              // onClick="window.location.href='cart.html'"
                                               method="post"
                                           >
                                               <button
@@ -238,7 +237,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -250,7 +249,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onClick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
@@ -335,7 +334,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -347,7 +346,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onClick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
@@ -432,7 +431,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -444,7 +443,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onClick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
@@ -524,7 +523,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -536,7 +535,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onClick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
@@ -615,7 +614,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -627,7 +626,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onClick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
@@ -706,7 +705,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -718,7 +717,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onClick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
@@ -797,7 +796,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -809,7 +808,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onclick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
@@ -888,7 +887,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -900,7 +899,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onclick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
@@ -979,7 +978,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -991,7 +990,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onclick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
@@ -1072,7 +1071,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -1084,7 +1083,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onclick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
@@ -1163,7 +1162,7 @@ export default function Home() {
                                       {/* product button */}
                                       <div className="button-set">
                                           <a
-                                              href="javascript:void(0)"
+                                             
                                               title="Quick View"
                                               className="quick-view-popup quick-view"
                                               data-toggle="modal"
@@ -1175,7 +1174,7 @@ export default function Home() {
                                           <form
                                               className="variants add"
                                               action="#"
-                                              onclick="window.location.href='cart.html'"
+
                                               method="post"
                                           >
                                               <button
