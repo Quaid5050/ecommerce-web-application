@@ -12964,14 +12964,14 @@ to {
 }
 
 
-/*
+
 @font-face {
 	font-family:"Font Awesome 5 Brands";
 	font-style:normal;
 	font-weight:normal;
 	font-display:auto;
-	src:url(../fonts/fonts/webfonts/fa-brands-400.html);
-	src:url(../fonts/webfonts/fa-brands-400d41d.eot?#iefix) format("embedded-opentype"),url(../fonts/webfonts/fa-brands-400.woff2) format("woff2"),url(../fonts/webfonts/fa-brands-400.woff) format("woff"),url(../fonts/webfonts/fa-brands-400.ttf) format("truetype"),url(../fonts/webfonts/fa-brands-400.svg#fontawesome) format("svg")
+	src:url(/dashboard-assets/fonts/fonts/webfonts/fa-brands-400.html);
+	src:url(/dashboard-assets/fonts/webfonts/fa-brands-400d41d.eot?#iefix) format("embedded-opentype"),url(/dashboard-assets/fonts/webfonts/fa-brands-400.woff2) format("woff2"),url(/dashboard-assets/fonts/webfonts/fa-brands-400.woff) format("woff"),url(/dashboard-assets/fonts/webfonts/fa-brands-400.ttf) format("truetype"),url(/dashboard-assets/fonts/webfonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 .fab {
 	font-family:"Font Awesome 5 Brands"
@@ -12981,8 +12981,8 @@ to {
 	font-style:normal;
 	font-weight:400;
 	font-display:auto;
-	src:url(../fonts/webfonts/fa-regular-400.eot);
-	src:url(../fonts/webfonts/fa-regular-400d41d.eot?#iefix) format("embedded-opentype"),url(../fonts/webfonts/fa-regular-400.woff2) format("woff2"),url(../fonts/webfonts/fa-regular-400.woff) format("woff"),url(../fonts/webfonts/fa-regular-400.ttf) format("truetype"),url(../fonts/webfonts/fa-regular-400.svg#fontawesome) format("svg")
+	src:url(/dashboard-assets/fonts/webfonts/fa-regular-400.eot);
+	src:url(/dashboard-assets/fonts/webfonts/fa-regular-400d41d.eot?#iefix) format("embedded-opentype"),url(/dashboard-assets/fonts/webfonts/fa-regular-400.woff2) format("woff2"),url(/dashboard-assets/fonts/webfonts/fa-regular-400.woff) format("woff"),url(/dashboard-assets/fonts/webfonts/fa-regular-400.ttf) format("truetype"),url(/dashboard-assets/fonts/webfonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 .far {
 	font-weight:400
@@ -12992,8 +12992,8 @@ to {
 	font-style:normal;
 	font-weight:900;
 	font-display:auto;
-	src:url(../fonts/webfonts/fa-solid-900.eot);
-	src:url(../fonts/webfonts/fa-solid-900d41d.eot?#iefix) format("embedded-opentype"),url(../fonts/webfonts/fa-solid-900.woff2) format("woff2"),url(../fonts/webfonts/fa-solid-900.woff) format("woff"),url(../fonts/webfonts/fa-solid-900.ttf) format("truetype"),url(../fonts/webfonts/fa-solid-900.svg#fontawesome) format("svg")
+	src:url(/dashboard-assets/fonts/webfonts/fa-solid-900.eot);
+	src:url(/dashboard-assets/fonts/webfonts/fa-solid-900d41d.eot?#iefix) format("embedded-opentype"),url(/dashboard-assets/fonts/webfonts/fa-solid-900.woff2) format("woff2"),url(/dashboard-assets/fonts/webfonts/fa-solid-900.woff) format("woff"),url(/dashboard-assets/fonts/webfonts/fa-solid-900.ttf) format("truetype"),url(/dashboard-assets/fonts/webfonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 .fa,.far,.fas {
 	font-family:"Font Awesome 5 Free"
@@ -13005,11 +13005,10 @@ to {
 	font-family:'Material Icons';
 	font-style:normal;
 	font-weight:400;
-	src:url(MaterialIcons-Regular.html);
-	src:local('Material Icons'),local('MaterialIcons-Regular'),url(../bundles/material-icons/MaterialIcons-Regular.woff2) format('woff2'),url(../bundles/material-icons/MaterialIcons-Regular.woff) format('woff'),url(../bundles/material-icons/MaterialIcons-Regular.ttf) format('truetype')
+	src:local('Material Icons'),local('MaterialIcons-Regular'),url(/dashboard-assets/bundles/material-icons/MaterialIcons-Regular.woff2) format('woff2'),url(/dashboard-assets/bundles/material-icons/MaterialIcons-Regular.woff) format('woff'),url(/dashboard-assets/bundles/material-icons/MaterialIcons-Regular.ttf) format('truetype')
 }
 
-*/
+
 .material-icons {
 	font-family:'Material Icons';
 	font-weight:normal;

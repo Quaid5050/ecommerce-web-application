@@ -38,7 +38,7 @@ export default function RootLayout({
           <ul className="navbar-nav mr-3">
             <li>
               <a
-                href="#"
+                // href="#"
                 data-toggle="sidebar"
                 className="nav-link nav-link-lg
 									collapse-btn"
@@ -939,7 +939,7 @@ export default function RootLayout({
               </div>
         </section>
         <div className="settingSidebar">
-          <a href="" className="settingPanelToggle">
+          <a  className="settingPanelToggle">
             {" "}
             <i className="fa fa-spin fa-cog" />
           </a>
