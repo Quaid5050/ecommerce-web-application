@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Script from 'next/script';
-
+import Image from 'next/image'
 
 {/* General CSS Files */ }
 import "./assets/css/app.min.css" 
@@ -95,7 +95,7 @@ export default function RootLayout({
 											text-white"
                   >
                     {" "}
-                    <img
+                    <Image height={20} width ={20}
                       alt="image"
                       src="/dashboard-assets/img/users/user-1.png"
                       className="rounded-circle"
@@ -113,7 +113,7 @@ export default function RootLayout({
                 <a href="#" className="dropdown-item">
                   {" "}
                   <span className="dropdown-item-avatar text-white">
-                    <img
+                    <Image height={20} width ={20}
                       alt="image"
                       src="/dashboard-assets/img/users/user-2.png"
                       className="rounded-circle"
@@ -131,7 +131,7 @@ export default function RootLayout({
                 <a href="#" className="dropdown-item">
                   {" "}
                   <span className="dropdown-item-avatar text-white">
-                    <img
+                    <Image height={20} width ={20}
                       alt="image"
                       src="/dashboard-assets/img/users/user-5.png"
                       className="rounded-circle"
@@ -149,7 +149,7 @@ export default function RootLayout({
                 <a href="#" className="dropdown-item">
                   {" "}
                   <span className="dropdown-item-avatar text-white">
-                    <img
+                    <Image height={20} width ={20}
                       alt="image"
                       src="/dashboard-assets/img/users/user-4.png"
                       className="rounded-circle"
@@ -167,7 +167,7 @@ export default function RootLayout({
                 <a href="#" className="dropdown-item">
                   {" "}
                   <span className="dropdown-item-avatar text-white">
-                    <img
+                    <Image height={20} width ={20}
                       alt="image"
                       src="/dashboard-assets/img/users/user-3.png"
                       className="rounded-circle"
@@ -185,7 +185,7 @@ export default function RootLayout({
                 <a href="#" className="dropdown-item">
                   {" "}
                   <span className="dropdown-item-avatar text-white">
-                    <img
+                    <Image height={20} width ={20}
                       alt="image"
                       src="/dashboard-assets/img/users/user-2.png"
                       className="rounded-circle"
@@ -311,7 +311,7 @@ export default function RootLayout({
               className="nav-link dropdown-toggle nav-link-lg nav-link-user"
             >
               {" "}
-              <img
+              <Image height={20} width ={20}
                 alt="image"
                 src="/dashboard-assets/img/user.png"
                 className="user-img-radious-style"
@@ -356,7 +356,7 @@ export default function RootLayout({
           <div className="sidebar-brand">
             <a href="index.html">
               {" "}
-              <img
+              <Image height={20} width ={20}
                 alt="image"
                 src="/dashboard-assets/img/logo.png"
                 className="header-logo"
