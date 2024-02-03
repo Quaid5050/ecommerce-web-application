@@ -21,11 +21,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html   lang="en">
+    <html lang="en">
     <body className="template-index home10-minimal">
      <main className={"pageWrapper"} >
        {/*Search Form Drawer*/}
-       <Search/>
+        <Search/>
        {/*End Search Form Drawer*/}
        {/*Top Header*/}
         <TopHeader/>
@@ -44,7 +44,7 @@ export default function RootLayout({
        </div>
 
        {/*Footer*/}
-       <Footer/>
+        <Footer/>
        {/*End Footer*/}
 
        {/* Including Javascript */}
