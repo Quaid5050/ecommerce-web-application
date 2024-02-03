@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const DashboardSidebar = () => {
     return (
         <div className="main-sidebar sidebar-style-2">
             <aside id="sidebar-wrapper">
                 <div className="sidebar-brand">
-                    <a href="index.html">
+                    <Link href="/admin/">
                         {" "}
                         <Image height={20} width ={20}
                                alt="image"
@@ -14,15 +15,15 @@ const DashboardSidebar = () => {
                                className="header-logo"
                         />{" "}
                         <span className="logo-name">Otika</span>
-                    </a>
+                    </Link>
                 </div>
                 <ul className="sidebar-menu">
                     <li className="menu-header">Main</li>
                     <li className="dropdown">
-                        <a href="index.html" className="nav-link">
+                        <Link href="admin/product" className="nav-link">
                             <i data-feather="monitor" />
                             <span>Dashboard</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className="dropdown">
                         <a href="#" className="menu-toggle nav-link has-dropdown">
