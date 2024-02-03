@@ -13,8 +13,8 @@ export default function Home() {
                                       <a href="#">
                                           <img
                                               className="blur-up lazyload"
-                                              data-src="assets/images/collection/home10-sm-banner1.jpg"
-                                              src="assets/images/collection/home10-sm-banner1.jpg"
+                                              data-src="/assets/images/collection/home10-sm-banner1.jpg"
+                                              src="/assets/images/collection/home10-sm-banner1.jpg"
                                               alt="Festive Treasures"
                                               title="Festive Treasures"
                                           />
@@ -30,8 +30,8 @@ export default function Home() {
                                   <a href="#">
                                       <img
                                           className="blur-up lazyload"
-                                          data-src="assets/images/collection/home10-sm-banner2.jpg"
-                                          src="assets/images/collection/home10-sm-banner2.jpg"
+                                          data-src="/assets/images/collection/home10-sm-banner2.jpg"
+                                          src="/assets/images/collection/home10-sm-banner2.jpg"
                                           alt="Keep it Simple"
                                           title="Keep it Simple"
                                       />
@@ -46,8 +46,8 @@ export default function Home() {
                                   <a href="#">
                                       <img
                                           className="blur-up lazyload"
-                                          data-src="assets/images/collection/home10-sm-banner3.jpg"
-                                          src="assets/images/collection/home10-sm-banner3.jpg"
+                                          data-src="/assets/images/collection/home10-sm-banner3.jpg"
+                                          src="/assets/images/collection/home10-sm-banner3.jpg"
                                           alt="Carry in Style"
                                           title="Carry in Style"
                                       />
@@ -60,8 +60,8 @@ export default function Home() {
                                   <a href="#">
                                       <img
                                           className="blur-up lazyload"
-                                          data-src="assets/images/collection/home10-sm-banner4.jpg"
-                                          src="assets/images/collection/home10-sm-banner4.jpg"
+                                          data-src="/assets/images/collection/home10-sm-banner4.jpg"
+                                          src="/assets/images/collection/home10-sm-banner4.jpg"
                                           alt="The Sophisticated "
                                           title="The Sophisticated"
                                       />
@@ -95,8 +95,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image1.jpg"
-                                          src="assets/images/product-images/product-image1.jpg"
+                                          data-src="/assets/images/product-images/product-image1.jpg"
+                                          src="/assets/images/product-images/product-image1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -104,8 +104,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image1-1.jpg"
-                                          src="assets/images/product-images/product-image1-1.jpg"
+                                          data-src="/assets/images/product-images/product-image1-1.jpg"
+                                          src="/assets/images/product-images/product-image1-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -193,8 +193,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image2.jpg"
-                                          src="assets/images/product-images/product-image2.jpg"
+                                          data-src="/assets/images/product-images/product-image2.jpg"
+                                          src="/assets/images/product-images/product-image2.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -202,8 +202,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image2-1.jpg"
-                                          src="assets/images/product-images/product-image2-1.jpg"
+                                          data-src="/assets/images/product-images/product-image2-1.jpg"
+                                          src="/assets/images/product-images/product-image2-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -290,8 +290,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image3.jpg"
-                                          src="assets/images/product-images/product-image3.jpg"
+                                          data-src="/assets/images/product-images/product-image3.jpg"
+                                          src="/assets/images/product-images/product-image3.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -299,8 +299,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image3-1.jpg"
-                                          src="assets/images/product-images/product-image3-1.jpg"
+                                          data-src="/assets/images/product-images/product-image3-1.jpg"
+                                          src="/assets/images/product-images/product-image3-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -387,8 +387,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image4.jpg"
-                                          src="assets/images/product-images/product-image4.jpg"
+                                          data-src="/assets/images/product-images/product-image4.jpg"
+                                          src="/assets/images/product-images/product-image4.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -396,8 +396,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image4-1.jpg"
-                                          src="assets/images/product-images/product-image4-1.jpg"
+                                          data-src="/assets/images/product-images/product-image4-1.jpg"
+                                          src="/assets/images/product-images/product-image4-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -484,8 +484,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image5.jpg"
-                                          src="assets/images/product-images/product-image5.jpg"
+                                          data-src="/assets/images/product-images/product-image5.jpg"
+                                          src="/assets/images/product-images/product-image5.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -493,8 +493,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image5-1.jpg"
-                                          src="assets/images/product-images/product-image5-1.jpg"
+                                          data-src="/assets/images/product-images/product-image5-1.jpg"
+                                          src="/assets/images/product-images/product-image5-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -576,8 +576,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image16.jpg"
-                                          src="assets/images/product-images/product-image16.jpg"
+                                          data-src="/assets/images/product-images/product-image16.jpg"
+                                          src="/assets/images/product-images/product-image16.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -585,8 +585,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image16-1.jpg"
-                                          src="assets/images/product-images/product-image16-1.jpg"
+                                          data-src="/assets/images/product-images/product-image16-1.jpg"
+                                          src="/assets/images/product-images/product-image16-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -667,8 +667,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/cape-dress-2.jpg"
-                                          src="assets/images/product-images/cape-dress-2.jpg"
+                                          data-src="/assets/images/product-images/cape-dress-2.jpg"
+                                          src="/assets/images/product-images/cape-dress-2.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -676,8 +676,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/cape-dress-1.jpg"
-                                          src="assets/images/product-images/cape-dress-1.jpg"
+                                          data-src="/assets/images/product-images/cape-dress-1.jpg"
+                                          src="/assets/images/product-images/cape-dress-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -758,8 +758,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image19.jpg"
-                                          src="assets/images/product-images/product-image19.jpg"
+                                          data-src="/assets/images/product-images/product-image19.jpg"
+                                          src="/assets/images/product-images/product-image19.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -767,8 +767,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image19-1.jpg"
-                                          src="assets/images/product-images/product-image19-1.jpg"
+                                          data-src="/assets/images/product-images/product-image19-1.jpg"
+                                          src="/assets/images/product-images/product-image19-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -849,8 +849,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image20.jpg"
-                                          src="assets/images/product-images/product-image20.jpg"
+                                          data-src="/assets/images/product-images/product-image20.jpg"
+                                          src="/assets/images/product-images/product-image20.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -858,8 +858,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image20-1.jpg"
-                                          src="assets/images/product-images/product-image20-1.jpg"
+                                          data-src="/assets/images/product-images/product-image20-1.jpg"
+                                          src="/assets/images/product-images/product-image20-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -940,8 +940,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image23.jpg"
-                                          src="assets/images/product-images/product-image23.jpg"
+                                          data-src="/assets/images/product-images/product-image23.jpg"
+                                          src="/assets/images/product-images/product-image23.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -949,8 +949,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image23-1.jpg"
-                                          src="assets/images/product-images/product-image23-1.jpg"
+                                          data-src="/assets/images/product-images/product-image23-1.jpg"
+                                          src="/assets/images/product-images/product-image23-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -1031,8 +1031,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image24.jpg"
-                                          src="assets/images/product-images/product-image24.jpg"
+                                          data-src="/assets/images/product-images/product-image24.jpg"
+                                          src="/assets/images/product-images/product-image24.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -1040,8 +1040,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image24-1.jpg"
-                                          src="assets/images/product-images/product-image24-1.jpg"
+                                          data-src="/assets/images/product-images/product-image24-1.jpg"
+                                          src="/assets/images/product-images/product-image24-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -1124,8 +1124,8 @@ export default function Home() {
                                       {/* image */}
                                       <img
                                           className="grid-view-item__image primary blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image25.jpg"
-                                          src="assets/images/product-images/product-image25.jpg"
+                                          data-src="/assets/images/product-images/product-image25.jpg"
+                                          src="/assets/images/product-images/product-image25.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -1133,8 +1133,8 @@ export default function Home() {
                                       {/* Hover image */}
                                       <img
                                           className="grid-view-item__image hover blur-up lazyload"
-                                          data-src="assets/images/product-images/product-image25-1.jpg"
-                                          src="assets/images/product-images/product-image25-1.jpg"
+                                          data-src="/assets/images/product-images/product-image25-1.jpg"
+                                          src="/assets/images/product-images/product-image25-1.jpg"
                                           alt="image"
                                           title="product"
                                       />
@@ -1287,7 +1287,7 @@ export default function Home() {
                                               <div className="product-details-img">
                                                   <div className="pl-20">
                                                       <img
-                                                          src="assets/images/product-detail-page/camelia-reversible-big1.jpg"
+                                                          src="/assets/images/product-detail-page/camelia-reversible-big1.jpg"
                                                           alt=""
                                                       />
                                                   </div>
@@ -1357,7 +1357,7 @@ export default function Home() {
                                                                       htmlFor="swatch-0-red"
                                                                       style={{
                                                                           backgroundImage:
-                                                                              "url(assets/images/product-detail-page/variant1-1.jpg)"
+                                                                              "url(/assets/images/product-detail-page/variant1-1.jpg)"
                                                                       }}
                                                                       title="Red"
                                                                   />
@@ -1378,7 +1378,7 @@ export default function Home() {
                                                                       htmlFor="swatch-0-blue"
                                                                       style={{
                                                                           backgroundImage:
-                                                                              "url(assets/images/product-detail-page/variant1-2.jpg)"
+                                                                              "url(/assets/images/product-detail-page/variant1-2.jpg)"
                                                                       }}
                                                                       title="Blue"
                                                                   />
@@ -1399,7 +1399,7 @@ export default function Home() {
                                                                       htmlFor="swatch-0-green"
                                                                       style={{
                                                                           backgroundImage:
-                                                                              "url(assets/images/product-detail-page/variant1-3.jpg)"
+                                                                              "url(/assets/images/product-detail-page/variant1-3.jpg)"
                                                                       }}
                                                                       title="Green"
                                                                   />
@@ -1420,7 +1420,7 @@ export default function Home() {
                                                                       htmlFor="swatch-0-gray"
                                                                       style={{
                                                                           backgroundImage:
-                                                                              "url(assets/images/product-detail-page/variant1-4.jpg)"
+                                                                              "url(/assets/images/product-detail-page/variant1-4.jpg)"
                                                                       }}
                                                                       title="Gray"
                                                                   />

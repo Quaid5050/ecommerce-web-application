@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const MidHeader = () => {
     return (
@@ -6,13 +7,13 @@ const MidHeader = () => {
             <div className="row align-items-center">
                 {/*Desktop Logo*/}
                 <div className="logo col-md-2 col-lg-2 d-none d-lg-block">
-                    <a href="index.html">
+                    <Link href="/front">
                         <img
-                            src="assets/images/logo.svg"
+                            src="/assets/images/logo.svg"
                             alt="Belle Multipurpose Html Template"
                             title="Belle Multipurpose Html Template"
                         />
-                    </a>
+                    </Link>
                 </div>
                 {/*End Desktop Logo*/}
                 <div className="col-2 col-sm-3 col-md-3 col-lg-8">
@@ -279,15 +280,15 @@ const MidHeader = () => {
                                 </div>
                             </li>
                             <li className="lvl1 parent megamenu">
-                                <a href="#">
+                                <Link href="/front/product">
                                     Shop <i className="anm anm-angle-down-l" />
-                                </a>
+                                </Link>
                                 <div className="megamenu style4">
                                     <ul className="grid grid--uniform mmWrapper">
                                         <li className="grid__item lvl-1 col-md-3 col-lg-3">
-                                            <a href="#" className="site-nav lvl-1">
+                                            <Link href="/front/product" className="site-nav lvl-1">
                                                 Shop Pages
-                                            </a>
+                                            </Link>
                                             <ul className="subLinks">
                                                 <li className="lvl-2">
                                                     <a
@@ -424,7 +425,7 @@ const MidHeader = () => {
                                         <li className="grid__item lvl-1 col-md-6 col-lg-6">
                                             <a href="#">
                                                 <img
-                                                    src="assets/images/megamenu-bg1.jpg"
+                                                    src="/assets/images/megamenu-bg1.jpg"
                                                     alt=""
                                                     title=""
                                                 />
@@ -669,7 +670,7 @@ const MidHeader = () => {
                                         </li>
                                         <li className="grid__item large-up--one-whole imageCol">
                                             <a href="#">
-                                                <img src="assets/images/megamenu-bg2.jpg" alt="" />
+                                                <img src="/assets/images/megamenu-bg2.jpg" alt="" />
                                             </a>
                                         </li>
                                     </ul>
@@ -808,13 +809,13 @@ const MidHeader = () => {
                 {/*Mobile Logo*/}
                 <div className="col-6 col-sm-6 col-md-6 col-lg-2 d-block d-lg-none mobile-logo">
                     <div className="logo">
-                        <a href="index.html">
+                        <Link href="/front">
                             <img
-                                src="assets/images/logo.svg"
+                                src="//assets/images/logo.svg"
                                 alt="Belle Multipurpose Html Template"
                                 title="Belle Multipurpose Html Template"
                             />
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 {/*Mobile Logo*/}
@@ -836,7 +837,7 @@ const MidHeader = () => {
                                 <li className="item">
                                     <a className="product-image" href="#">
                                         <img
-                                            src="assets/images/product-images/cape-dress-1.jpg"
+                                            src="/assets/images/product-images/cape-dress-1.jpg"
                                             alt="3/4 Sleeve Kimono Dress"
                                             title=""
                                         />
@@ -883,7 +884,7 @@ const MidHeader = () => {
                                 <li className="item">
                                     <a className="product-image" href="#">
                                         <img
-                                            src="assets/images/product-images/cape-dress-2.jpg"
+                                            src="/assets/images/product-images/cape-dress-2.jpg"
                                             alt="Elastic Waist Dress - Black / Small"
                                             title=""
                                         />
