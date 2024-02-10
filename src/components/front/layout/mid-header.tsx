@@ -7,7 +7,7 @@ const MidHeader = () => {
             <div className="row align-items-center">
                 {/*Desktop Logo*/}
                 <div className="logo col-md-2 col-lg-2 d-none d-lg-block">
-                    <Link href="/front">
+                    <Link href="">
                         <img
                             src="/assets/images/logo.svg"
                             alt="Belle Multipurpose Html Template"
@@ -31,7 +31,7 @@ const MidHeader = () => {
                         {/* for mobile */}
                         <ul id="siteNav" className="site-nav medium center hidearrow">
                             <li className="lvl1 parent megamenu">
-                                <a href="#">
+                                <a href="/">
                                     Home <i className="anm anm-angle-down-l" />
                                 </a>
                                 <div className="megamenu style1">
@@ -280,13 +280,13 @@ const MidHeader = () => {
                                 </div>
                             </li>
                             <li className="lvl1 parent megamenu">
-                                <Link href="/front/product">
+                                <Link href="/product">
                                     Shop <i className="anm anm-angle-down-l" />
                                 </Link>
                                 <div className="megamenu style4">
                                     <ul className="grid grid--uniform mmWrapper">
                                         <li className="grid__item lvl-1 col-md-3 col-lg-3">
-                                            <Link href="/front/product" className="site-nav lvl-1">
+                                            <Link href="/product" className="site-nav lvl-1">
                                                 Shop Pages
                                             </Link>
                                             <ul className="subLinks">
@@ -809,7 +809,7 @@ const MidHeader = () => {
                 {/*Mobile Logo*/}
                 <div className="col-6 col-sm-6 col-md-6 col-lg-2 d-block d-lg-none mobile-logo">
                     <div className="logo">
-                        <Link href="/front">
+                        <Link href="">
                             <img
                                 src="//assets/images/logo.svg"
                                 alt="Belle Multipurpose Html Template"
