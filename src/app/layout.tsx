@@ -1,14 +1,15 @@
 import type { Metadata } from 'next'
+import { SessionProvider } from "next-auth/react"
 import Script from 'next/script';
+import './globals.css';
+
+import './assets/css/plugins.css';
+import './assets/css/bootstrap.min.css';
+import './assets/css/style.css';
+import './assets/css/responsive.css';
 
 
-import  './assets/css/plugins.css';
-import  './assets/css/bootstrap.min.css';
-import  './assets/css/style.css';
-import  './assets/css/responsive.css';
-
-
-import {TopHeader , MidHeader, Search, Footer , MobileMenu} from "@/components/front/layout/index.js";
+import { TopHeader, MidHeader, Search, Footer, MobileMenu } from "@/components/front/layout/index.js";
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,54 +17,54 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-                                     children,
-                                   }: {
+  children,
+}: {
   children: React.ReactNode
 }) {
   return (
+    <SessionProvider>
       <html lang="en">
-      <body className="template-index home10-minimal">
-      <main className={"pageWrapper"} >
-        {/*Search Form Drawer*/}
-        <Search/>
-        {/*End Search Form Drawer*/}
-        {/*Top Header*/}
-        <TopHeader/>
-        {/*End Top Header*/}
-        {/*Header*/}
-        <div className="header-wrap animated d-flex border-bottom">
-          <MidHeader/>
-        </div>
-        {/*End Header*/}
-        {/*Mobile Menu*/}
-        <MobileMenu/>
-        {/*End Mobile Menu*/}
+        <body className="template-index home10-minimal">
+          <main className={"pageWrapper"} >
+            {/*Search Form Drawer*/}
+            <Search />
+            {/*End Search Form Drawer*/}
+            {/*Top Header*/}
+            <TopHeader />
+            {/*End Top Header*/}
+            {/*Header*/}
+            <div className="header-wrap animated d-flex border-bottom">
+              <MidHeader />
+            </div>
+            {/*End Header*/}
+            {/*Mobile Menu*/}
+            <MobileMenu />
+            {/*End Mobile Menu*/}
 
-        <div className={"page-content"}>
-          {children}
-        </div>
+            <div className={"page-content"} >
+              {children}
+            </div>
 
-        {/*Footer*/}
-        <Footer/>
-        {/*End Footer*/}
+            {/*Footer*/}
+            <Footer />
+            {/*End Footer*/}
 
-        {/* Including Javascript */}
+            {/* Including Javascript */}
 
-        {/* Including Jquery */}
-        <Script src="/assets/js/vendor/jquery-3.3.1.min.js"></Script>
-        <Script src="/assets/js/vendor/modernizr-3.6.0.min.js"></Script>
-        <Script src="/assets/js/vendor/jquery.cookie.js"></Script>
-        <Script src="/assets/js/vendor/wow.min.js"></Script>
-
-        {/* Including Javascript */}
-        <Script src="/assets/js/bootstrap.min.js"></Script>
-        <Script src="/assets/js/plugins.js"></Script>
-        <Script src="/assets/js/popper.min.js"></Script>
-        <Script src="/assets/js/lazysizes.js"></Script>
-        <Script src="/assets/js/main.js"></Script>
-        <Script src={"/assets/js/news-popup.js"}></Script>
-      </main>
-      </body>
+            {/* Including Javascript */}
+            <Script src="/assets/js/vendor/jquery-3.3.1.min.js" strategy="afterInteractive"></Script>
+            <Script src="/assets/js/vendor/modernizr-3.6.0.min.js" strategy="afterInteractive"></Script>
+            <Script src="/assets/js/vendor/jquery.cookie.js" strategy="afterInteractive"></Script>
+            <Script src="/assets/js/vendor/wow.min.js" strategy="afterInteractive"></Script>
+            <Script src="/assets/js/bootstrap.min.js" strategy="afterInteractive"></Script>
+            <Script src="/assets/js/plugins.js" strategy="afterInteractive"></Script>
+            <Script src="/assets/js/popper.min.js" strategy="afterInteractive"></Script>
+            <Script src="/assets/js/lazysizes.js" strategy="afterInteractive"></Script>
+            <Script src="/assets/js/main.js" strategy="afterInteractive"></Script>
+            <Script src="/assets/js/news-popup.js" strategy="afterInteractive"></Script>
+          </main>
+        </body>
       </html>
+    </SessionProvider>
   )
 }

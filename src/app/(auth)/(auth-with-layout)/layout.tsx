@@ -1,4 +1,9 @@
 
+import { error } from 'console'
+import React from 'react';
+
+
+
 export default function AuthLayout({
   children,
 }: {
@@ -6,15 +11,15 @@ export default function AuthLayout({
 }) {
   return (
     <div>
-       <div
-       style={{
-            backgroundColor: "black",
-            color: "white",
-            padding: "10px",
-       }}>
-         <h1>Auth Layout</h1>
-       </div>
-        <div>{children}</div>
+      <div
+        style={{
+          backgroundColor: "black",
+          color: "white",
+          padding: "10px",
+        }}>
+        <h1>Auth Layout</h1>
+      </div>
+      <div>{children}</div>
     </div>
   )
 }
