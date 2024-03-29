@@ -1,3 +1,4 @@
+import { ThreeTier } from "@/components/component/three-tier";
 import React from "react";
 export default function Home() {
     return (
@@ -11,64 +12,221 @@ export default function Home() {
                                 <div className="inner">
                                     <div className="inner btmleft">
                                         <a href="#">
-                                            <img
-                                                className="blur-up lazyload"
-                                                data-src="/assets/images/collection/home10-sm-banner1.jpg"
-                                                src="/assets/images/collection/home10-sm-banner1.jpg"
-                                                alt="Festive Treasures"
-                                                title="Festive Treasures"
-                                            />
-                                            <div className="ttl">
-                                                Festive Treasures <h4>Embroidered Apparel</h4>
+                                            <img className="blur-up lazyload" data-src="assets/images/collection/home10-sm-banner1.jpg" src="assets/images/collection/home10-sm-banner1.jpg" alt="Festive Treasures" title="Festive Treasures" />
+                                            <div className="ttl">Festive Treasures <h4>Embroidered Apparel</h4>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-3 col-lg-3">
-                                <div className="inner center">
-                                    <a href="#">
-                                        <img
-                                            className="blur-up lazyload"
-                                            data-src="/assets/images/collection/home10-sm-banner2.jpg"
-                                            src="/assets/images/collection/home10-sm-banner2.jpg"
-                                            alt="Keep it Simple"
-                                            title="Keep it Simple"
-                                        />
-                                        <div className="ttl">
-                                            Keep it Simple <h4>Denim Jeans</h4>
+                                <div className="row">
+                                    <div className="col-6 col-sm-6 col-md-12 col-lg-12">
+                                        <div className="inner center my-2 mx-1">
+                                            <a href="#">
+                                                <img className="blur-up lazyload" data-src="assets/images/collection/home10-sm-banner4.jpg" src="assets/images/collection/home10-sm-banner4.jpg" alt="Festive Treasures" title="Festive Treasures" />
+                                                <div className="ttl">Embroidered Apparel
+                                                </div>
+                                            </a>
                                         </div>
-                                    </a>
+                                    </div>
+                                    <div className="col-6 col-sm-6  col-md-12 col-lg-12">
+                                        <div className="inner center my-2 mx-1">
+                                            <a href="#">
+                                                <img className="blur-up lazyload" data-src="assets/images/collection/home10-sm-banner4.jpg" src="assets/images/collection/home10-sm-banner4.jpg" alt="Festive Treasures" title="Festive Treasures" />
+                                                <div className="ttl"> Embroidered Apparel
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-3 col-lg-3">
-                                <div className="inner btmright mb-4">
-                                    <a href="#">
-                                        <img
-                                            className="blur-up lazyload"
-                                            data-src="/assets/images/collection/home10-sm-banner3.jpg"
-                                            src="/assets/images/collection/home10-sm-banner3.jpg"
-                                            alt="Carry in Style"
-                                            title="Carry in Style"
-                                        />
-                                        <div className="ttl">
-                                            Carry in Style <h4>Purse</h4>
+                                <div className="inner center">
+                                    {/* <div className="selects-container mt-3">
+                                        <h5>Find your ink and toner</h5>
+                                        <select className="form-select">
+                                            <option value="option1">Option 1</option>
+                                            <option value="option2">Option 2</option>
+                                            <option value="option3">Option 3</option>
+                                        </select>
+                                        <h5>Printer Model</h5>
+                                        <select className="form-select">
+                                            <option value="model1">Model 1</option>
+                                            <option value="model2">Model 2</option>
+                                            <option value="model3">Model 3</option>
+                                        </select>
+                                        <h5>Brand</h5>
+                                        <select className="form-select">
+                                            <option value="brand1">Brand 1</option>
+                                            <option value="brand2">Brand 2</option>
+                                            <option value="brand3">Brand 3</option>
+                                        </select>
+                                    </div> */}
+                                    <div className="mx-auto max-w-sm rounded-lg bg-[#333333] p-6">
+                                        <h2 className="mb-4 font-bold text-white">FIND YOUR INK &amp; TONER</h2>
+                                        <div className="space-y-2">
+                                            <button
+                                                type="button"
+                                                role="combobox"
+                                                aria-controls="radix-:r68:"
+                                                aria-expanded="false"
+                                                aria-autocomplete="none"
+                                                dir="ltr"
+                                                data-state="closed"
+                                                data-placeholder=""
+                                                className="border-input ring-offset-background placeholder:text-muted-foreground focus:ring-ring flex h-10 w-full items-center justify-between rounded-md border bg-white px-3 py-2 text-sm text-black focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                                id="printer-brand"
+                                            >
+                                                <span style={{ pointerEvents: "none" }}>Select your Printer Brand</span>
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width={24}
+                                                    height={24}
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    strokeWidth={2}
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    className="h-4 w-4 opacity-50"
+                                                    aria-hidden="true"
+                                                >
+                                                    <path d="m6 9 6 6 6-6" />
+                                                </svg>
+                                            </button>
+                                            <select
+                                                name="select"
+                                                aria-hidden="true"
+                                                tabIndex={-1}
+                                                style={{
+                                                    position: "absolute",
+                                                    border: 0,
+                                                    width: 1,
+                                                    height: 1,
+                                                    padding: 0,
+                                                    margin: "-1px",
+                                                    overflow: "hidden",
+                                                    clip: "rect(0px, 0px, 0px, 0px)",
+                                                    whiteSpace: "nowrap",
+                                                    overflowWrap: "normal"
+                                                }}
+                                            >
+                                                <option value="">Select a brand...</option>
+                                                <option value="brand1">Brand 1</option>
+                                                <option value="brand2">Brand 2</option>
+                                                {/* Add more options as needed */}
+                                            </select>
+
+                                            <button
+                                                type="button"
+                                                role="combobox"
+                                                aria-controls="radix-:r69:"
+                                                aria-expanded="false"
+                                                aria-autocomplete="none"
+                                                dir="ltr"
+                                                data-state="closed"
+                                                data-placeholder=""
+                                                className="border-input ring-offset-background placeholder:text-muted-foreground focus:ring-ring flex h-10 w-full items-center justify-between rounded-md border bg-white px-3 py-2 text-sm text-black focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                                id="printer-series"
+                                            >
+                                                <span style={{ pointerEvents: "none" }}>Select your Printer Series</span>
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width={24}
+                                                    height={24}
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    strokeWidth={2}
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    className="h-4 w-4 opacity-50"
+                                                    aria-hidden="true"
+                                                >
+                                                    <path d="m6 9 6 6 6-6" />
+                                                </svg>
+                                            </button>
+                                            <select
+                                                aria-hidden="true"
+                                                tabIndex={-1}
+                                                style={{
+                                                    position: "absolute",
+                                                    border: 0,
+                                                    width: 1,
+                                                    height: 1,
+                                                    padding: 0,
+                                                    margin: "-1px",
+                                                    overflow: "hidden",
+                                                    clip: "rect(0px, 0px, 0px, 0px)",
+                                                    whiteSpace: "nowrap",
+                                                    overflowWrap: "normal"
+                                                }}
+                                            >
+                                                <option value="">Select a series...</option>
+                                                <option value="series1">Series 1</option>
+                                                <option value="series2">Series 2</option>
+                                                {/* Add more options as needed */}
+                                            </select>
+
+                                            <button
+                                                type="button"
+                                                role="combobox"
+                                                aria-controls="radix-:r6a:"
+                                                aria-expanded="false"
+                                                aria-autocomplete="none"
+                                                dir="ltr"
+                                                data-state="closed"
+                                                data-placeholder=""
+                                                className="border-input ring-offset-background placeholder:text-muted-foreground focus:ring-ring flex h-10 w-full items-center justify-between rounded-md border bg-white px-3 py-2 text-sm text-black focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                                id="printer-model"
+                                            >
+                                                <span style={{ pointerEvents: "none" }}>Select your Printer Model</span>
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width={24}
+                                                    height={24}
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    strokeWidth={2}
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    className="h-4 w-4 opacity-50"
+                                                    aria-hidden="true"
+                                                >
+                                                    <path d="m6 9 6 6 6-6" />
+                                                </svg>
+                                            </button>
+                                            <select
+                                                aria-hidden="true"
+                                                tabIndex={-1}
+                                                style={{
+                                                    position: "absolute",
+                                                    border: 0,
+                                                    width: 1,
+                                                    height: 1,
+                                                    padding: 0,
+                                                    margin: "-1px",
+                                                    overflow: "hidden",
+                                                    clip: "rect(0px, 0px, 0px, 0px)",
+                                                    whiteSpace: "nowrap",
+                                                    overflowWrap: "normal"
+                                                }}
+                                            >
+                                                <option value="">Select a model...</option>
+                                                <option value="model1">Model 1</option>
+                                                <option value="model2">Model 2</option>
+                                                {/* Add more options as needed */}
+                                            </select>
+
+                                            <button className="ring-offset-background focus-visible:ring-ring hover:bg-primary/90 inline-flex h-10 w-full items-center justify-center whitespace-nowrap rounded-md bg-[#FFD700] px-4 py-2 text-sm font-medium text-black transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50">
+                                                FIND CARTRIDGE
+                                            </button>
                                         </div>
-                                    </a>
-                                </div>
-                                <div className="inner topleft">
-                                    <a href="#">
-                                        <img
-                                            className="blur-up lazyload"
-                                            data-src="/assets/images/collection/home10-sm-banner4.jpg"
-                                            src="/assets/images/collection/home10-sm-banner4.jpg"
-                                            alt="The Sophisticated "
-                                            title="The Sophisticated"
-                                        />
-                                        <div className="ttl">
-                                            The Sophisticated <h4>Denim Jeans</h4>
-                                        </div>
-                                    </a>
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
@@ -76,13 +234,51 @@ export default function Home() {
                 </div>
             </div>
             {/*End Small Banners*/}
+            {/*Brands Logo Slider*/}
+            <div className="section logo-section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div className="section-header text-center">
+                                <h2 className="h2">Top Printer Ink Brands</h2>
+                                <p>Shop Printer Ink From Top Brands!</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div className="logo-bar">
+                                <div className="logo-bar__item">
+                                    <img src="assets/images/logo/brandlogo1.png" alt="brandlogo" />
+                                </div>
+                                <div className="logo-bar__item">
+                                    <img src="assets/images/logo/brandlogo2.png" alt="brandlogo" />
+                                </div>
+                                <div className="logo-bar__item">
+                                    <img src="assets/images/logo/brandlogo3.png" alt="brandlogo" />
+                                </div>
+                                <div className="logo-bar__item">
+                                    <img src="assets/images/logo/brandlogo4.png" alt="brandlogo" />
+                                </div>
+                                <div className="logo-bar__item">
+                                    <img src="assets/images/logo/brandlogo5.png" alt="brandlogo" />
+                                </div>
+                                <div className="logo-bar__item">
+                                    <img src="assets/images/logo/brandlogo6.png" alt="brandlogo" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*End  Brands  Logo Slider*/}
+
+
             {/*Best seller of the week*/}
             <div className="product-rows section">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="section-header text-center">
-                                <h2 className="h2">Best seller of the week</h2>
+                                <h2 className="h2">Best Selling Ink Cartridges</h2>
                             </div>
                         </div>
                     </div>
@@ -1228,32 +1424,32 @@ export default function Home() {
                                 <i className="icon anm anm-truck-l" aria-hidden="true" />
                                 <h5>Free Shipping Worldwide</h5>
                                 <span className="sub-text">
-              Diam augue augue in fusce voluptatem
-            </span>
+                                    Diam augue augue in fusce voluptatem
+                                </span>
                             </li>
                             <li className="display-table-cell">
                                 {" "}
                                 <i className="icon anm anm-money-bill-ar" aria-hidden="true" />
                                 <h5>Money Back Guarantee</h5>
                                 <span className="sub-text">
-              Use this text to display your store information
-            </span>{" "}
+                                    Use this text to display your store information
+                                </span>{" "}
                             </li>
                             <li className="display-table-cell">
                                 {" "}
                                 <i className="icon anm anm-comments-l" aria-hidden="true" />
                                 <h5>24/7 Help Center</h5>
                                 <span className="sub-text">
-              Use this text to display your store information
-            </span>{" "}
+                                    Use this text to display your store information
+                                </span>{" "}
                             </li>
                             <li className="display-table-cell">
                                 {" "}
                                 <i className="icon anm anm-dollar-sign-l" aria-hidden="true" />
                                 <h5>cash on delivery</h5>
                                 <span className="sub-text">
-              Use this text to display your store information
-            </span>
+                                    Use this text to display your store information
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -1314,10 +1510,10 @@ export default function Home() {
                                                             <span className="money">$600.00</span>
                                                         </s>
                                                         <span className="product-price__price product-price__price-product-template product-price__sale product-price__sale--single">
-                        <span id="ProductPrice-product-template">
-                          <span className="money">$500.00</span>
-                        </span>
-                      </span>
+                                                            <span id="ProductPrice-product-template">
+                                                                <span className="money">$500.00</span>
+                                                            </span>
+                                                        </span>
                                                     </p>
                                                     <div className="product-single__description rte">
                                                         Belle Multipurpose Bootstrap 4 Html Template that will
@@ -1520,7 +1716,7 @@ export default function Home() {
                                                                     <div className="qtyField">
                                                                         <a
                                                                             className="qtyBtn minus"
-                                                                            
+
                                                                         >
                                                                             <i
                                                                                 className="fa anm anm-minus-r"
@@ -1536,7 +1732,7 @@ export default function Home() {
                                                                         />
                                                                         <a
                                                                             className="qtyBtn plus"
-                                                                            
+
                                                                         >
                                                                             <i
                                                                                 className="fa anm anm-plus-r"

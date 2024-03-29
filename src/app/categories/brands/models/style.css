@@ -1,0 +1,20 @@
+table tr th {
+    background: #000;
+    color: #fff;
+    border: 0 !important;
+}
+
+table tr th,
+table tr td {
+    padding: 7px 12px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #e8e9eb;
+}
+
+th {
+    background: #000;
+    color: #fff;
+    border: 0 !important;
+    text-align: center;
+}
