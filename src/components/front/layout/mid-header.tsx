@@ -280,7 +280,7 @@ const MidHeader = () => {
                                 </div>
                             </li>
                             <li className="lvl1 parent megamenu">
-                                <Link href="/product">
+                                <Link href="/products">
                                     Shop <i className="anm anm-angle-down-l" />
                                 </Link>
                                 <div className="megamenu style4">

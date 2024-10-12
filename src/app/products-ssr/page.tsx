@@ -1,7 +1,16 @@
-"use client";
+
 import React from "react";
-import Product from "@/components/product";
-export default function Page() {
+import Product from "@/components/product/product-details";
+
+export default async function Page() {
+    const res = await fetch('http://localhost:8000/api/products', {
+        next: {
+            //secounds 30
+            revalidate: 30,
+            }
+    });
+    const products = await res.json();
+
     return (
         <div>
             {/*Small Banners*/}
@@ -90,7 +99,11 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="grid-products">
-                        <Product/>
+                    <div className="row">
+                            {products && products.map((product: any) => (
+                                 <Product  key={product.id}  product={product}/>   
+                            ))}
+                    </div>
                     </div>
                     <div className="clear text-center">
                         <a href="#" className="btn">
@@ -471,7 +484,6 @@ export default function Page() {
             </>
 
         </div>
-
-
     )
 }
+ 
